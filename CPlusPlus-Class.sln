@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloWorld", "HelloWorld\HelloWorld.vcxproj", "{D98A0782-1D63-44E7-BC6C-F22B6B3E3BD4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DiceGame", "DiceGame\DiceGame.vcxproj", "{F0785744-EA0D-4064-84EF-F89B536FB7AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{D98A0782-1D63-44E7-BC6C-F22B6B3E3BD4}.Release|x64.Build.0 = Release|x64
 		{D98A0782-1D63-44E7-BC6C-F22B6B3E3BD4}.Release|x86.ActiveCfg = Release|Win32
 		{D98A0782-1D63-44E7-BC6C-F22B6B3E3BD4}.Release|x86.Build.0 = Release|Win32
+		{F0785744-EA0D-4064-84EF-F89B536FB7AF}.Debug|x64.ActiveCfg = Debug|x64
+		{F0785744-EA0D-4064-84EF-F89B536FB7AF}.Debug|x64.Build.0 = Debug|x64
+		{F0785744-EA0D-4064-84EF-F89B536FB7AF}.Debug|x86.ActiveCfg = Debug|Win32
+		{F0785744-EA0D-4064-84EF-F89B536FB7AF}.Debug|x86.Build.0 = Debug|Win32
+		{F0785744-EA0D-4064-84EF-F89B536FB7AF}.Release|x64.ActiveCfg = Release|x64
+		{F0785744-EA0D-4064-84EF-F89B536FB7AF}.Release|x64.Build.0 = Release|x64
+		{F0785744-EA0D-4064-84EF-F89B536FB7AF}.Release|x86.ActiveCfg = Release|Win32
+		{F0785744-EA0D-4064-84EF-F89B536FB7AF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
