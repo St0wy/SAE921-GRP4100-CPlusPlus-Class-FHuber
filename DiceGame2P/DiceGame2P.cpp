@@ -21,7 +21,9 @@ int main()
 	auto roll = [&]() { return distribution(generator); };
 
 	// Game variables
-	int money = 0;
+	int moneyP1 = 0;
+	int moneyP2 = 0;
+	int score = 0;
 	bool is_keeping_gain = false;
 	char answer = 0;
 
@@ -38,7 +40,7 @@ int main()
 	while (!is_keeping_gain)
 	{
 		// Roll the dice
-		int score = roll() + roll();
+		score = roll() + roll();
 		std::cout << "The dice rolled : " << score << std::endl;
 
 		if (score <= min_score)
