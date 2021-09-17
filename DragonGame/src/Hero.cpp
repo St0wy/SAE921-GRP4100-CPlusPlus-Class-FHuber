@@ -1,35 +1,36 @@
+#include <algorithm>
 #include "Hero.h"
 
 Hero::Hero(
 	const double max_health,
 	const double health,
-	const std::default_random_engine& rnd_generator)
+	std::default_random_engine& rnd_generator)
 	:Entity(max_health,
 		health,
 		DEFAULT_DAMAGE,
 		DEFAULT_DAMAGE,
 		rnd_generator)
 {
-	protection_percentage_ = 0.0;
+	protection_left = 0;
 }
 
 void Hero::defend()
 {
-	protection_percentage_ = DEFAULT_PROTECTION;
+	protection_left = DEFAULT_PROTECTION_DURATION;
 }
 
 void Hero::heal()
 {
-	health_ += HEAL_AMMOUNT;
+	// Clamp to limit the HP to max health
+	health_ = std::clamp(health_ + HEAL_AMMOUNT, 0.0, max_health_);
 }
 
 void Hero::remove_health(double damage)
 {
-	damage = damage * (1.0 - protection_percentage_);
-	health_ -= damage;
-}
-
-void Hero::reset_buffs()
-{
-	protection_percentage_ = 0.0;
+	if(protection_left > 0)
+	{
+		damage = damage * (1.0 - PROTECTION_PERCENTAGE);
+		protection_left -= 1;
+	}
+	Entity::remove_health(damage);
 }

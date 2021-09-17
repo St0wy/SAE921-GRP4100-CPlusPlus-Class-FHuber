@@ -7,10 +7,13 @@
 #include "GameState.h"
 
 constexpr double THEOBALD_HEALTH = 50;
-constexpr double GRIMGOR_HEALTH = 20;
+constexpr double GRIMGOR_HEALTH = 36;
+constexpr int GIMGOR_WAAGH_CHANCE = 9;
 
 bool prompt_for_char(const char* prompt, char& readch);
 void handle_player_turn(Hero& theobald, Vilain& grimgor);
+void hanle_vilain_turn(Hero& theobald, Vilain& grimgor, std::default_random_engine& generator);
+void print_game_status(const Hero& theobald, const Vilain& grimgor);
 
 int main()
 {
@@ -19,7 +22,7 @@ int main()
 		std::chrono::high_resolution_clock::now().time_since_epoch().count());
 
 	// Create the rnd generator
-	const std::default_random_engine generator(seed);
+	std::default_random_engine generator(seed);
 
 	// Create theobald
 	Hero theobald(THEOBALD_HEALTH, THEOBALD_HEALTH, generator);
@@ -32,19 +35,47 @@ int main()
 
 	std::cout << "Sir Theobald ! Vous affrontez l'orrible orgre noir Grimgor !" << std::endl;
 
-	while (grimgor.get_health() > 0)
+	while (grimgor.get_health() > 0 && theobald.get_health() > 0)
 	{
 		switch (game_state)
 		{
 		case GameState::PlayerTurn:
 			handle_player_turn(theobald, grimgor);
+			game_state = GameState::VilainTurn;
 			break;
 
 		case GameState::VilainTurn:
-			// TODO: Handle vilain turn
+			hanle_vilain_turn(theobald, grimgor, generator);
+			game_state = GameState::PlayerTurn;
 			break;
 		}
 	}
+
+	if(grimgor.get_health() <= 0)
+	{
+		std::cout << "Vous avez gagne ! Bravo !" << std::endl;
+	}
+
+	if(theobald.get_health() <= 0)
+	{
+		std::cout << "Vous etes mort..." << std::endl;
+	}
+}
+
+void hanle_vilain_turn(Hero& theobald, Vilain& grimgor, std::default_random_engine& generator)
+{
+	const auto distrib_waagh = std::uniform_int_distribution(0, GIMGOR_WAAGH_CHANCE);
+	std::cout << "C'est le tour de Grimgor." << std::endl;
+
+	if (distrib_waagh(generator) == 0)
+	{
+		std::cout << "Oh non ! Grimgor invoque la waagh !" << std::endl;
+		grimgor.invoque_waagh();
+	}
+
+	const double damage = grimgor.hit(theobald);
+	std::cout << "Grimgor a fait " << damage << " degats a theobald." << std::endl;
+	print_game_status(theobald, grimgor);
 }
 
 void handle_player_turn(Hero& theobald, Vilain& grimgor)
@@ -54,28 +85,38 @@ void handle_player_turn(Hero& theobald, Vilain& grimgor)
 
 	std::cout << "C'est votre tour, Theobald. " << std::endl;
 
-	theobald.reset_buffs();
-
 	// Ask what the player wants to do
 	while (prompt_for_char(action_choice_text, answer))
 	{
 		// Make the answer an lowercase char
 		answer = tolower(answer, std::locale());
-		switch (answer)
+		if (answer == 'a')
 		{
-		case 'a':
-			theobald.hit(grimgor);
+			const double damage = theobald.hit(grimgor);
+			std::cout << "Theobald a fait " << damage << " degats a grimgor." << std::endl;
 			break;
-		case 'b':
+		}
+		if (answer == 'b') {
 			theobald.defend();
 			break;
-		case 'c':
+		}
+		if (answer == 'c')
+		{
 			theobald.heal();
-			break;
-		default:
+			std::cout << "Theobald se soigne de " << Hero::HEAL_AMMOUNT << " PV." << std::endl;
 			break;
 		}
 	}
+
+	print_game_status(theobald, grimgor);
+}
+
+void print_game_status(const Hero& theobald, const Vilain& grimgor)
+{
+	std::cout << "Theobald a " << theobald.get_health() <<
+		"/" << theobald.get_max_health() << " PV." << std::endl;
+	std::cout << "Grimgor a " << grimgor.get_health() <<
+		"/" << grimgor.get_max_health() << " PV." << std::endl;
 }
 
 bool prompt_for_char(const char* prompt, char& readch)
