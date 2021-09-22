@@ -9,4 +9,4 @@ Cours C++ de la SAE
 
 ## Algèbre de bool
 
-Les excercices se trouvent dans le document [02-BOOL.md](./02-BOOL.md)
+Les exercices se trouvent dans le document [02-BOOL.md](./02-BOOL.md)
