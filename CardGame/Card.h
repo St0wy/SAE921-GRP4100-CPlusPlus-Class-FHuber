@@ -4,6 +4,9 @@
 #include "Value.h"
 #include "Suit.h"
 
+/**
+ * \brief Represents a game card.
+ */
 class Card
 {
 	Value value_;
@@ -17,7 +20,17 @@ public:
 	Card();
 	Value get_value() const;
 	Suit get_suit() const;
+
+	/**
+	 * \brief Creates a printable string of the card.
+	 * \return The string representation.
+	 */
 	std::string to_string() const;
+
+	/**
+	 * \brief Create a new array of card that is a full deck with every card in it.
+	 * \return A new deck.
+	 */
 	static std::array<Card, NBR_CARDS_IN_DECK> from_deck();
 };
 

@@ -20,6 +20,10 @@ int main()
 	print_hand(hand);
 }
 
+/**
+ * \brief Prints the deck in the terminal with colors.
+ * \param deck Deck to print.
+ */
 void print_deck(const std::array<Card, Card::NBR_CARDS_IN_DECK> deck)
 {
 	for (Card card : deck)
@@ -36,6 +40,10 @@ void print_deck(const std::array<Card, Card::NBR_CARDS_IN_DECK> deck)
 	}
 }
 
+/**
+ * \brief Prints a hand in the terminal with colors.
+ * \param hand Hand to print.
+ */
 void print_hand(const std::vector<Card>& hand)
 {
 	for (Card card : hand)
@@ -52,6 +60,12 @@ void print_hand(const std::vector<Card>& hand)
 	}
 }
 
+/**
+ * \brief Picks a hand from the provided deck.
+ * \param deck Deck to pick the hand from.
+ * \param hand_size Size of the hand to pick.
+ * \return The picked hand.
+ */
 std::vector<Card> pick_hand(const std::array<Card, Card::NBR_CARDS_IN_DECK> deck, int hand_size)
 {
 	// obtain a seed from the system clock
