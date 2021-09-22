@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FindBestScore", "FindBestSc
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ArrayFinder", "ArrayFinder\ArrayFinder.vcxproj", "{9E7E0096-DBCD-43E1-A500-A56263E63E66}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MultiplicationTable", "MultiplicationTable\MultiplicationTable.vcxproj", "{CAC0E42F-7BCE-4F7B-AE8A-35871CDBFB87}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{9E7E0096-DBCD-43E1-A500-A56263E63E66}.Release|x64.Build.0 = Release|x64
 		{9E7E0096-DBCD-43E1-A500-A56263E63E66}.Release|x86.ActiveCfg = Release|Win32
 		{9E7E0096-DBCD-43E1-A500-A56263E63E66}.Release|x86.Build.0 = Release|Win32
+		{CAC0E42F-7BCE-4F7B-AE8A-35871CDBFB87}.Debug|x64.ActiveCfg = Debug|x64
+		{CAC0E42F-7BCE-4F7B-AE8A-35871CDBFB87}.Debug|x64.Build.0 = Debug|x64
+		{CAC0E42F-7BCE-4F7B-AE8A-35871CDBFB87}.Debug|x86.ActiveCfg = Debug|Win32
+		{CAC0E42F-7BCE-4F7B-AE8A-35871CDBFB87}.Debug|x86.Build.0 = Debug|Win32
+		{CAC0E42F-7BCE-4F7B-AE8A-35871CDBFB87}.Release|x64.ActiveCfg = Release|x64
+		{CAC0E42F-7BCE-4F7B-AE8A-35871CDBFB87}.Release|x64.Build.0 = Release|x64
+		{CAC0E42F-7BCE-4F7B-AE8A-35871CDBFB87}.Release|x86.ActiveCfg = Release|Win32
+		{CAC0E42F-7BCE-4F7B-AE8A-35871CDBFB87}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
