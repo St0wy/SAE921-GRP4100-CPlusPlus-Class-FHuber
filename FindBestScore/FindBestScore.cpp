@@ -1,3 +1,4 @@
+#include <array>
 #include <iostream>
 
 constexpr int SCORES_LENGTH = 5;

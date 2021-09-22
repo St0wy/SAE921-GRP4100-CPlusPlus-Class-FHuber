@@ -1,6 +1,8 @@
 #pragma once
 #include <string>
 #include <array>
+#include <vector>
+
 #include "Value.h"
 #include "Suit.h"
 
@@ -28,9 +30,9 @@ public:
 	std::string to_string() const;
 
 	/**
-	 * \brief Create a new array of card that is a full deck with every card in it.
+	 * \brief Create a new vector of cards that is a full deck with every card in it.
 	 * \return A new deck.
 	 */
-	static std::array<Card, NBR_CARDS_IN_DECK> from_deck();
+	static std::vector<Card> from_deck();
 };
 

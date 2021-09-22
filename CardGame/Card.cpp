@@ -64,17 +64,15 @@ std::string Card::to_string() const
 	return value_text + " of " + suit_text;
 }
 
-std::array<Card, Card::NBR_CARDS_IN_DECK> Card::from_deck()
+std::vector<Card> Card::from_deck()
 {
-	std::array<Card, NBR_CARDS_IN_DECK> cards = {};
+	std::vector<Card> cards;
 
 	for (int suit_index = 0; suit_index < NBR_SUITS; ++suit_index)
 	{
 		for (int value_index = 0; value_index < NBR_VALUES; ++value_index)
 		{
-			const int card_index = (NBR_VALUES * suit_index) + value_index;
-			// +1 on value because the value starts at 1
-			cards[card_index] = Card(static_cast<Value>(value_index + 1), static_cast<Suit>(suit_index));
+			cards.emplace_back(static_cast<Value>(value_index + 1), static_cast<Suit>(suit_index));
 		}
 	}
 	return cards;
