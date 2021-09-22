@@ -4,5 +4,5 @@ Cours C++ de la SAE
 
 ## Formatives :
 
-1. Première formative : **DragonGame**
-2. Deuxième formative : **CardGame**
+1. Première formative : [DragonGame](./DragonGame/)
+2. Deuxième formative : [CardGame](./CardGame)
