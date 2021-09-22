@@ -13,7 +13,7 @@ int main()
 
 	// Alternatively...
 	// It's not precised it has to work on other arrays ;)
-	std::cout << "The best score is also : " << scores[1] << std::endl; 
+	std::cout << "The best score is also : " << scores[1] << std::endl;
 }
 
 int get_best_score(int scores[], const int length)
