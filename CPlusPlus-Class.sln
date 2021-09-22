@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AnimalScream", "AnimalScrea
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FindBestScore", "FindBestScore\FindBestScore.vcxproj", "{717B8D3E-AFCE-4F67-8863-4194ED00AAAA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ArrayFinder", "ArrayFinder\ArrayFinder.vcxproj", "{9E7E0096-DBCD-43E1-A500-A56263E63E66}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{717B8D3E-AFCE-4F67-8863-4194ED00AAAA}.Release|x64.Build.0 = Release|x64
 		{717B8D3E-AFCE-4F67-8863-4194ED00AAAA}.Release|x86.ActiveCfg = Release|Win32
 		{717B8D3E-AFCE-4F67-8863-4194ED00AAAA}.Release|x86.Build.0 = Release|Win32
+		{9E7E0096-DBCD-43E1-A500-A56263E63E66}.Debug|x64.ActiveCfg = Debug|x64
+		{9E7E0096-DBCD-43E1-A500-A56263E63E66}.Debug|x64.Build.0 = Debug|x64
+		{9E7E0096-DBCD-43E1-A500-A56263E63E66}.Debug|x86.ActiveCfg = Debug|Win32
+		{9E7E0096-DBCD-43E1-A500-A56263E63E66}.Debug|x86.Build.0 = Debug|Win32
+		{9E7E0096-DBCD-43E1-A500-A56263E63E66}.Release|x64.ActiveCfg = Release|x64
+		{9E7E0096-DBCD-43E1-A500-A56263E63E66}.Release|x64.Build.0 = Release|x64
+		{9E7E0096-DBCD-43E1-A500-A56263E63E66}.Release|x86.ActiveCfg = Release|Win32
+		{9E7E0096-DBCD-43E1-A500-A56263E63E66}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
