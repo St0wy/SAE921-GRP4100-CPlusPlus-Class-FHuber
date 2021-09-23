@@ -24,6 +24,7 @@
     <ProjectGuid>{e93fe80b-26df-42e0-a281-070ead92ab26}</ProjectGuid>
     <RootNamespace>DragonGame</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>FormativeDragonGame</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
