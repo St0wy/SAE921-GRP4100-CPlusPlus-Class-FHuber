@@ -3,7 +3,7 @@
 
 constexpr int SCORES_LENGTH = 5;
 
-int get_best_score(int scores[], const int length);
+int get_best_score(int scores[], int length);
 
 int main()
 {

@@ -24,6 +24,7 @@
     <ProjectGuid>{4689904c-94d3-4cd0-b308-85cd66c6af24}</ProjectGuid>
     <RootNamespace>AnimalScream</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>EnumAnimalScream</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
