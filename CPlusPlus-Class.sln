@@ -7,19 +7,21 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloWorld", "HelloWorld\He
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DiceGame", "DiceGame\DiceGame.vcxproj", "{F0785744-EA0D-4064-84EF-F89B536FB7AF}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DragonGame", "DragonGame\DragonGame.vcxproj", "{E93FE80B-26DF-42E0-A281-070EAD92AB26}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FormativeDragonGame", "DragonGame\DragonGame.vcxproj", "{E93FE80B-26DF-42E0-A281-070EAD92AB26}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AnimalScream", "AnimalScream\AnimalScream.vcxproj", "{4689904C-94D3-4CD0-B308-85CD66C6AF24}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EnumAnimalScream", "AnimalScream\AnimalScream.vcxproj", "{4689904C-94D3-4CD0-B308-85CD66C6AF24}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FindBestScore", "FindBestScore\FindBestScore.vcxproj", "{717B8D3E-AFCE-4F67-8863-4194ED00AAAA}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ArrayFinder", "ArrayFinder\ArrayFinder.vcxproj", "{9E7E0096-DBCD-43E1-A500-A56263E63E66}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FindValue", "ArrayFinder\ArrayFinder.vcxproj", "{9E7E0096-DBCD-43E1-A500-A56263E63E66}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MultiplicationTable", "MultiplicationTable\MultiplicationTable.vcxproj", "{CAC0E42F-7BCE-4F7B-AE8A-35871CDBFB87}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DisplayMultiplicationTable", "MultiplicationTable\MultiplicationTable.vcxproj", "{CAC0E42F-7BCE-4F7B-AE8A-35871CDBFB87}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FindVowels", "FindVowels\FindVowels.vcxproj", "{5F1F0C52-1B9D-4C74-A663-7C16C8BF1258}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StringEx2FindVowel", "FindVowels\FindVowels.vcxproj", "{5F1F0C52-1B9D-4C74-A663-7C16C8BF1258}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CardGame", "CardGame\CardGame.vcxproj", "{226EC292-8080-47E3-9C59-53712BDEB83A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FormativePoker", "CardGame\CardGame.vcxproj", "{226EC292-8080-47E3-9C59-53712BDEB83A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StringEx5", "StringEx5\StringEx5.vcxproj", "{AC4B72F1-16C5-4F8A-AE35-945CDE12E684}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -101,6 +103,14 @@ Global
 		{226EC292-8080-47E3-9C59-53712BDEB83A}.Release|x64.Build.0 = Release|x64
 		{226EC292-8080-47E3-9C59-53712BDEB83A}.Release|x86.ActiveCfg = Release|Win32
 		{226EC292-8080-47E3-9C59-53712BDEB83A}.Release|x86.Build.0 = Release|Win32
+		{AC4B72F1-16C5-4F8A-AE35-945CDE12E684}.Debug|x64.ActiveCfg = Debug|x64
+		{AC4B72F1-16C5-4F8A-AE35-945CDE12E684}.Debug|x64.Build.0 = Debug|x64
+		{AC4B72F1-16C5-4F8A-AE35-945CDE12E684}.Debug|x86.ActiveCfg = Debug|Win32
+		{AC4B72F1-16C5-4F8A-AE35-945CDE12E684}.Debug|x86.Build.0 = Debug|Win32
+		{AC4B72F1-16C5-4F8A-AE35-945CDE12E684}.Release|x64.ActiveCfg = Release|x64
+		{AC4B72F1-16C5-4F8A-AE35-945CDE12E684}.Release|x64.Build.0 = Release|x64
+		{AC4B72F1-16C5-4F8A-AE35-945CDE12E684}.Release|x86.ActiveCfg = Release|Win32
+		{AC4B72F1-16C5-4F8A-AE35-945CDE12E684}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
