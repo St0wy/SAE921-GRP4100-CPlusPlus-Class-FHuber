@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FormativePoker", "CardGame\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StringEx5", "StringEx5\StringEx5.vcxproj", "{AC4B72F1-16C5-4F8A-AE35-945CDE12E684}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FormativeNarativeGame", "FormativeNarativeGame\FormativeNarativeGame.vcxproj", "{6AEDB006-450A-416C-9418-C4B64AC651F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -111,6 +113,14 @@ Global
 		{AC4B72F1-16C5-4F8A-AE35-945CDE12E684}.Release|x64.Build.0 = Release|x64
 		{AC4B72F1-16C5-4F8A-AE35-945CDE12E684}.Release|x86.ActiveCfg = Release|Win32
 		{AC4B72F1-16C5-4F8A-AE35-945CDE12E684}.Release|x86.Build.0 = Release|Win32
+		{6AEDB006-450A-416C-9418-C4B64AC651F7}.Debug|x64.ActiveCfg = Debug|x64
+		{6AEDB006-450A-416C-9418-C4B64AC651F7}.Debug|x64.Build.0 = Debug|x64
+		{6AEDB006-450A-416C-9418-C4B64AC651F7}.Debug|x86.ActiveCfg = Debug|Win32
+		{6AEDB006-450A-416C-9418-C4B64AC651F7}.Debug|x86.Build.0 = Debug|Win32
+		{6AEDB006-450A-416C-9418-C4B64AC651F7}.Release|x64.ActiveCfg = Release|x64
+		{6AEDB006-450A-416C-9418-C4B64AC651F7}.Release|x64.Build.0 = Release|x64
+		{6AEDB006-450A-416C-9418-C4B64AC651F7}.Release|x86.ActiveCfg = Release|Win32
+		{6AEDB006-450A-416C-9418-C4B64AC651F7}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

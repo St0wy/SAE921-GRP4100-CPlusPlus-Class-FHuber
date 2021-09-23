@@ -6,6 +6,7 @@ Cours C++ de la SAE
 
 1. Première formative : [DragonGame](./DragonGame/)
 2. Deuxième formative : [CardGame](./CardGame)
+3. Troisième formative : [FormativeNarativeGame](./FormativeNarativeGame)
 
 ## Algèbre de bool
 
