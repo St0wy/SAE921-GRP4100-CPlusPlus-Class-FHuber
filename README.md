@@ -15,3 +15,4 @@ Les exercices et formatives se trouvent dans le document [02-BOOL.md](./02-BOOL.
 ## 03 Good practices, Data Structures 
 
 1. Class : J'avais déjà utilisé une classe dans [FormativePoker](./CardGame)
+2. Formative Roulette russe : [FormativeRouletteRusse](./FormativeRouletteRusse)
