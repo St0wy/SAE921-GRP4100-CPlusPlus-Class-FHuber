@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FormativeNarativeGame", "Fo
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03Ex2-1Vector", "03Ex2-1Vector\03Ex2-1Vector.vcxproj", "{7D021DCA-6F78-4F0F-A7F7-FDBDF9D24E32}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FormativeRouletteRusse", "FormativeRouletteRusse\FormativeRouletteRusse.vcxproj", "{6E677164-7BE1-4BF6-8C10-70325CCCD83D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -131,6 +133,14 @@ Global
 		{7D021DCA-6F78-4F0F-A7F7-FDBDF9D24E32}.Release|x64.Build.0 = Release|x64
 		{7D021DCA-6F78-4F0F-A7F7-FDBDF9D24E32}.Release|x86.ActiveCfg = Release|Win32
 		{7D021DCA-6F78-4F0F-A7F7-FDBDF9D24E32}.Release|x86.Build.0 = Release|Win32
+		{6E677164-7BE1-4BF6-8C10-70325CCCD83D}.Debug|x64.ActiveCfg = Debug|x64
+		{6E677164-7BE1-4BF6-8C10-70325CCCD83D}.Debug|x64.Build.0 = Debug|x64
+		{6E677164-7BE1-4BF6-8C10-70325CCCD83D}.Debug|x86.ActiveCfg = Debug|Win32
+		{6E677164-7BE1-4BF6-8C10-70325CCCD83D}.Debug|x86.Build.0 = Debug|Win32
+		{6E677164-7BE1-4BF6-8C10-70325CCCD83D}.Release|x64.ActiveCfg = Release|x64
+		{6E677164-7BE1-4BF6-8C10-70325CCCD83D}.Release|x64.Build.0 = Release|x64
+		{6E677164-7BE1-4BF6-8C10-70325CCCD83D}.Release|x86.ActiveCfg = Release|Win32
+		{6E677164-7BE1-4BF6-8C10-70325CCCD83D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
