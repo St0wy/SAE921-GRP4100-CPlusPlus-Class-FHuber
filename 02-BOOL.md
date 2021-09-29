@@ -1,4 +1,4 @@
-# Algrèbre de bool
+# Algèbre de bool
 
 ## Ex 1.1
 
