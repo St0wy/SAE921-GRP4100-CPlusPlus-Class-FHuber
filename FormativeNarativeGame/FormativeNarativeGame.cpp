@@ -106,4 +106,3 @@ int main()
 	find_n_replace(chapter_five, "[birthday]", choosen_one.get_birthdate_string());
 	std::cout << std::endl << "Chapter Five : " << std::endl << chapter_five << std::endl;
 }
-

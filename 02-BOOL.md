@@ -43,8 +43,28 @@ Peut se lire :
 
 b OR (a AND b)
 
-## Ex 2.2
+## Formative 2.1
 
-a + (b \* a)
+a + !b
 
-a OR (b AND a)
+a OR NOT b
+
+## Formative 2.2
+
+La solution est : A
+
+# Convertion Binaire
+
+## Formative
+
+| Décimal | Hexa | Binaire             |
+| ------- | ---- | ------------------- |
+| 175     | AF   | 1010 1111           |
+| 2'765   | ACD  | 1010 1100 1101      |
+| 2'738   | AB2  | 1010 1011 0010      |
+| 255     | FF   | 1111 1111           |
+| 25      | 19   | 0001 1001           |
+| 147     | 93   | 1001 0011           |
+| 39554   | 9A82 | 1001 1010 1000 0010 |
+| 2856    | B28  | 1011 0010 1000      |
+
