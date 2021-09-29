@@ -2,12 +2,16 @@
 
 Cours C++ de la SAE
 
-## Formatives CPP :
+## 01 Programming Basics
 
-1. Première formative : [DragonGame](./DragonGame/)
-2. Deuxième formative : [CardGame](./CardGame)
+1. Première formative : [FormativeDragonGame](./DragonGame/)
+2. Deuxième formative : [FormativePoker](./CardGame)
 3. Troisième formative : [FormativeNarativeGame](./FormativeNarativeGame)
 
-## Algèbre de bool
+## 02 Algèbre de bool
 
-Les exercices se trouvent dans le document [02-BOOL.md](./02-BOOL.md)
+Les exercices et formatives se trouvent dans le document [02-BOOL.md](./02-BOOL.md)
+
+## 03 Good practices, Data Structures 
+
+1. Class : J'avais déjà utilisé une classe dans [FormativePoker](./CardGame)
