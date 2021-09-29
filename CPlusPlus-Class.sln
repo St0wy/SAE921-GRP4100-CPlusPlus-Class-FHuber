@@ -25,13 +25,15 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StringEx5", "StringEx5\Stri
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FormativeNarativeGame", "FormativeNarativeGame\FormativeNarativeGame.vcxproj", "{6AEDB006-450A-416C-9418-C4B64AC651F7}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03Ex2-1Vector", "03Ex2-1Vector\03Ex2-1Vector.vcxproj", "{7D021DCA-6F78-4F0F-A7F7-FDBDF9D24E32}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03Ex2.1Vector", "03Ex2-1Vector\03Ex2-1Vector.vcxproj", "{7D021DCA-6F78-4F0F-A7F7-FDBDF9D24E32}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FormativeRouletteRusse", "FormativeRouletteRusse\FormativeRouletteRusse.vcxproj", "{6E677164-7BE1-4BF6-8C10-70325CCCD83D}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03Ex3.1", "03Ex3.1\03Ex3.1.vcxproj", "{9F0ABF20-D456-4235-BE60-444035FFB2BD}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03Ex3.2", "03Ex3.2\03Ex3.2.vcxproj", "{C4329D8B-2AA9-40DD-B15B-5DEEFBB6548C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03Ex3.3", "03Ex3.3\03Ex3.3.vcxproj", "{57ED2BBF-9DC1-4B32-B8A7-09FC5BCDDD37}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -161,6 +163,14 @@ Global
 		{C4329D8B-2AA9-40DD-B15B-5DEEFBB6548C}.Release|x64.Build.0 = Release|x64
 		{C4329D8B-2AA9-40DD-B15B-5DEEFBB6548C}.Release|x86.ActiveCfg = Release|Win32
 		{C4329D8B-2AA9-40DD-B15B-5DEEFBB6548C}.Release|x86.Build.0 = Release|Win32
+		{57ED2BBF-9DC1-4B32-B8A7-09FC5BCDDD37}.Debug|x64.ActiveCfg = Debug|x64
+		{57ED2BBF-9DC1-4B32-B8A7-09FC5BCDDD37}.Debug|x64.Build.0 = Debug|x64
+		{57ED2BBF-9DC1-4B32-B8A7-09FC5BCDDD37}.Debug|x86.ActiveCfg = Debug|Win32
+		{57ED2BBF-9DC1-4B32-B8A7-09FC5BCDDD37}.Debug|x86.Build.0 = Debug|Win32
+		{57ED2BBF-9DC1-4B32-B8A7-09FC5BCDDD37}.Release|x64.ActiveCfg = Release|x64
+		{57ED2BBF-9DC1-4B32-B8A7-09FC5BCDDD37}.Release|x64.Build.0 = Release|x64
+		{57ED2BBF-9DC1-4B32-B8A7-09FC5BCDDD37}.Release|x86.ActiveCfg = Release|Win32
+		{57ED2BBF-9DC1-4B32-B8A7-09FC5BCDDD37}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
