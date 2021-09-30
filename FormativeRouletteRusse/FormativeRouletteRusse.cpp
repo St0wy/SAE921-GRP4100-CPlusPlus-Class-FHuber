@@ -3,6 +3,7 @@
 #include <random>
 #include <array>
 #include <termcolor/termcolor.hpp>
+#include <thread>
 #include "Gun.h"
 
 
@@ -29,26 +30,35 @@ int main()
 
 	gun.roll_barrel();
 
-	const bool was_shot_p1 = gun.shoot();
-	const bool was_shot_p2 = gun.shoot();
+	bool was_shot_p1;
+	bool was_shot_p2;
 
-	if (was_shot_p1)
+	do
 	{
-		std::cout << termcolor::red << "P1 was shot."
-			<< std::endl << termcolor::reset;
-	}
-	else
-	{
-		std::cout << "P1 was NOT shot." << std::endl;
-	}
+		was_shot_p1 = gun.shoot();
+		was_shot_p2 = gun.shoot();
 
-	if (was_shot_p2)
-	{
-		std::cout << termcolor::red << "P2 was shot."
-			<< std::endl << termcolor::reset;
-	}
-	else
-	{
-		std::cout << "P2 was NOT shot." << std::endl;
-	}
+		if (was_shot_p1)
+		{
+			std::cout << termcolor::red << "P1 was shot."
+				<< std::endl << termcolor::reset;
+		}
+		else
+		{
+			std::cout << "P1 was NOT shot." << std::endl;
+		}
+
+		if (was_shot_p2)
+		{
+			std::cout << termcolor::red << "P2 was shot."
+				<< std::endl << termcolor::reset;
+		}
+		else
+		{
+			std::cout << "P2 was NOT shot." << std::endl;
+		}
+
+		std::chrono::seconds dura(1);
+		std::this_thread::sleep_for(dura);
+	} while (!was_shot_p1 && !was_shot_p2);
 }

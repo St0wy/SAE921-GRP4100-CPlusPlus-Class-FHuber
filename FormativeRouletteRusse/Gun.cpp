@@ -17,13 +17,15 @@ void Gun::roll_barrel()
 
 bool Gun::shoot()
 {
+	bool is_dead = false;
 	if (barrel_[bullet_index_])
 	{
 		barrel_[bullet_index_] = false;
-		increment_bullet_index(1);
-		return true;
+		is_dead = true;
 	}
-	return false;
+
+	increment_bullet_index(1);
+	return is_dead;
 }
 
 std::string Gun::get_barrel_text()
