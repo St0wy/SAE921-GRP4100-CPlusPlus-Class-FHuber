@@ -38,13 +38,12 @@ int main()
 
 void remove_even(std::list<int>& numbers)
 {
-	auto iter = numbers.begin();
-	const auto end = numbers.end();
+	//auto iter = numbers.begin();
+	//const auto end = numbers.end();
 
-	while (iter != end)
+	for (auto iter = numbers.begin(); iter != numbers.end(); ++iter)
 	{
-		const int num = *iter;
-		if (num % 2 == 0)
+		if (*iter % 2 == 0)
 		{
 			iter = numbers.erase(iter);
 		}
@@ -53,6 +52,18 @@ void remove_even(std::list<int>& numbers)
 			++iter;
 		}
 	}
+
+	//while (iter != end)
+	//{
+	//if (*iter % 2 == 0)
+	//{
+	//	iter = numbers.erase(iter);
+	//}
+	//else
+	//{
+	//	++iter;
+	//}
+	//}
 }
 
 void print_list(const std::list<int>& numbers)
