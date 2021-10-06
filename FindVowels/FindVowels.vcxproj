@@ -24,7 +24,7 @@
     <ProjectGuid>{5f1f0c52-1b9d-4c74-a663-7c16c8bf1258}</ProjectGuid>
     <RootNamespace>FindVowels</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>01.02-Exercice-ProgrammingBasics-StringEx2FindVowel</ProjectName>
+    <ProjectName>Exercice-StringEx2FindVowel</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

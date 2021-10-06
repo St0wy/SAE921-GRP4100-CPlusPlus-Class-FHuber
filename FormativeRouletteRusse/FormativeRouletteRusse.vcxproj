@@ -24,7 +24,7 @@
     <ProjectGuid>{6e677164-7be1-4bf6-8c10-70325cccd83d}</ProjectGuid>
     <RootNamespace>FormativeRouletteRusse</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>03-Formative-DataStructures-RouletteRusse</ProjectName>
+    <ProjectName>Formative-RouletteRusse</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

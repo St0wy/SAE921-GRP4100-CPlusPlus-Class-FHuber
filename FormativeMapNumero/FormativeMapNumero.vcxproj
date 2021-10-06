@@ -24,7 +24,7 @@
     <ProjectGuid>{7c55a17d-a0db-478a-a8bd-d7cfbff28e6f}</ProjectGuid>
     <RootNamespace>FormativeMapNumero</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>03-Formative-DataStructures-MapNumero</ProjectName>
+    <ProjectName>Formative-MapNumero</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
