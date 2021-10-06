@@ -24,6 +24,7 @@
     <ProjectGuid>{6aedb006-450a-416c-9418-c4b64ac651f7}</ProjectGuid>
     <RootNamespace>FormativeNarativeGame</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>01.02-Formative-ProgrammingBasics-NarativeGame</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

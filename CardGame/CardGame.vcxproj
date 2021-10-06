@@ -24,7 +24,7 @@
     <ProjectGuid>{226ec292-8080-47e3-9c59-53712bdeb83a}</ProjectGuid>
     <RootNamespace>CardGame</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>FormativePoker</ProjectName>
+    <ProjectName>01.02-Formative-ProgrammingBasics-Poker</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

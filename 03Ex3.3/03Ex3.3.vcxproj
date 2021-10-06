@@ -24,6 +24,7 @@
     <ProjectGuid>{57ed2bbf-9dc1-4b32-b8a7-09fc5bcddd37}</ProjectGuid>
     <RootNamespace>My03Ex33</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>03-Exercice-DataStructures-Ex3.3</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

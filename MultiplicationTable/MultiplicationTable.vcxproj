@@ -24,7 +24,7 @@
     <ProjectGuid>{cac0e42f-7bce-4f7b-ae8a-35871cdbfb87}</ProjectGuid>
     <RootNamespace>MultiplicationTable</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>DisplayMultiplicationTable</ProjectName>
+    <ProjectName>01.02-Exercice-ProgrammingBasics-DisplayMultiplicationTable</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

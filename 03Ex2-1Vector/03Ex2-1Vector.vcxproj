@@ -24,7 +24,7 @@
     <ProjectGuid>{7d021dca-6f78-4f0f-a7f7-fdbdf9d24e32}</ProjectGuid>
     <RootNamespace>My03Ex21Vector</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>03Ex2.1Vector</ProjectName>
+    <ProjectName>03-Exercice-DataStructures-Ex2.1Vector</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

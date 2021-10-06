@@ -24,6 +24,7 @@
     <ProjectGuid>{717b8d3e-afce-4f67-8863-4194ed00aaaa}</ProjectGuid>
     <RootNamespace>FindBestScore</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>01.02-Exercice-ProgrammingBasics-FindBestScore</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
