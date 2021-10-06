@@ -51,6 +51,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercice-RandomIntClass", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercice-CandyShop", "Exercice-CandyShop\Exercice-CandyShop.vcxproj", "{75F48FE1-4D08-4932-B34D-4FD742C9DE43}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercice-SurchargeOperateur", "Exercice-SurchargeOperateur\Exercice-SurchargeOperateur.vcxproj", "{4E12374F-E607-490D-86E0-555F223C2954}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -227,6 +229,14 @@ Global
 		{75F48FE1-4D08-4932-B34D-4FD742C9DE43}.Release|x64.Build.0 = Release|x64
 		{75F48FE1-4D08-4932-B34D-4FD742C9DE43}.Release|x86.ActiveCfg = Release|Win32
 		{75F48FE1-4D08-4932-B34D-4FD742C9DE43}.Release|x86.Build.0 = Release|Win32
+		{4E12374F-E607-490D-86E0-555F223C2954}.Debug|x64.ActiveCfg = Debug|x64
+		{4E12374F-E607-490D-86E0-555F223C2954}.Debug|x64.Build.0 = Debug|x64
+		{4E12374F-E607-490D-86E0-555F223C2954}.Debug|x86.ActiveCfg = Debug|Win32
+		{4E12374F-E607-490D-86E0-555F223C2954}.Debug|x86.Build.0 = Debug|Win32
+		{4E12374F-E607-490D-86E0-555F223C2954}.Release|x64.ActiveCfg = Release|x64
+		{4E12374F-E607-490D-86E0-555F223C2954}.Release|x64.Build.0 = Release|x64
+		{4E12374F-E607-490D-86E0-555F223C2954}.Release|x86.ActiveCfg = Release|Win32
+		{4E12374F-E607-490D-86E0-555F223C2954}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -252,6 +262,7 @@ Global
 		{C6152FAB-C055-4BB2-93E8-06C9FD673C59} = {15144978-8547-4F73-B19A-A8376E8403F2}
 		{FEB699CC-28A6-494C-8165-A55206F56244} = {15144978-8547-4F73-B19A-A8376E8403F2}
 		{75F48FE1-4D08-4932-B34D-4FD742C9DE43} = {15144978-8547-4F73-B19A-A8376E8403F2}
+		{4E12374F-E607-490D-86E0-555F223C2954} = {15144978-8547-4F73-B19A-A8376E8403F2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4443DB94-305F-4627-B3C4-BFD1520E949A}
