@@ -5,10 +5,12 @@
 int main()
 {
 	const auto a = Point(1, 1);
-	const auto b = Point(2, 2);
+	auto b = Point();
 
 	std::cout << "Point A \n";
 	a.print();
+
+	b.input();
 
 	std::cout << "Point B \n";
 	b.print();

@@ -10,6 +10,7 @@ public:
 
 	void move(double dx, double dy);
 	void print() const;
+	void input();
 	[[nodiscard]] double distance(Point other) const;
 	[[nodiscard]] Point center_point(Point other) const;
 

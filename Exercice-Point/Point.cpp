@@ -24,6 +24,12 @@ void Point::print() const
 	std::cout << "X : " << x_ << ", Y : " << y_ << std::endl;
 }
 
+void Point::input()
+{
+	std::cin >> x_;
+	std::cin >> y_;
+}
+
 double Point::distance(const Point other) const
 {
 	const double diff_x = other.x_ - x_;
