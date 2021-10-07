@@ -6,8 +6,6 @@
 using std::cout;
 using std::endl;
 
-constexpr int TREE_AMOUNT = 3;
-
 int main()
 {
 	// obtain a seed from the system clock

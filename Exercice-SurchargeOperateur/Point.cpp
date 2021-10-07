@@ -49,7 +49,7 @@ Point Point::operator+(const Point& other) const
 
 std::partial_ordering Point::operator<=>(const Point& other) const
 {
-	const Point center = center_point(other);
+	const Point center(0, 0);
 	double dist_a = distance(center);
 	double dist_b = other.distance(center);
 
