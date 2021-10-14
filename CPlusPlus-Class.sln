@@ -61,6 +61,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercice-MultipleInheritenc
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Formative-SolarSystem", "Formative-SolarSystem\Formative-SolarSystem.vcxproj", "{CB1B7EE1-4E1F-4548-AC8C-67E2131A0022}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercice-Inventaire", "Exercice-Inventaire\Exercice-Inventaire.vcxproj", "{05FA3090-A52D-4942-9994-1C3A3FB05F66}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -277,6 +279,14 @@ Global
 		{CB1B7EE1-4E1F-4548-AC8C-67E2131A0022}.Release|x64.Build.0 = Release|x64
 		{CB1B7EE1-4E1F-4548-AC8C-67E2131A0022}.Release|x86.ActiveCfg = Release|Win32
 		{CB1B7EE1-4E1F-4548-AC8C-67E2131A0022}.Release|x86.Build.0 = Release|Win32
+		{05FA3090-A52D-4942-9994-1C3A3FB05F66}.Debug|x64.ActiveCfg = Debug|x64
+		{05FA3090-A52D-4942-9994-1C3A3FB05F66}.Debug|x64.Build.0 = Debug|x64
+		{05FA3090-A52D-4942-9994-1C3A3FB05F66}.Debug|x86.ActiveCfg = Debug|Win32
+		{05FA3090-A52D-4942-9994-1C3A3FB05F66}.Debug|x86.Build.0 = Debug|Win32
+		{05FA3090-A52D-4942-9994-1C3A3FB05F66}.Release|x64.ActiveCfg = Release|x64
+		{05FA3090-A52D-4942-9994-1C3A3FB05F66}.Release|x64.Build.0 = Release|x64
+		{05FA3090-A52D-4942-9994-1C3A3FB05F66}.Release|x86.ActiveCfg = Release|Win32
+		{05FA3090-A52D-4942-9994-1C3A3FB05F66}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -307,6 +317,7 @@ Global
 		{27FFC075-2D4D-4DC3-8EF1-C9E459EC56D3} = {15144978-8547-4F73-B19A-A8376E8403F2}
 		{E02C0CE0-11E4-44F1-B93B-57F21ACC5701} = {15144978-8547-4F73-B19A-A8376E8403F2}
 		{CB1B7EE1-4E1F-4548-AC8C-67E2131A0022} = {15144978-8547-4F73-B19A-A8376E8403F2}
+		{05FA3090-A52D-4942-9994-1C3A3FB05F66} = {15144978-8547-4F73-B19A-A8376E8403F2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4443DB94-305F-4627-B3C4-BFD1520E949A}
