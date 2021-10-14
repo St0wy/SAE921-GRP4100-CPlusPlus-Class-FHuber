@@ -30,9 +30,8 @@ void Inventory::equip_sword()
 {
 	for (const auto item : items_)
 	{
-		if (dynamic_cast<const Sword*>(item) != nullptr)
+		if (const auto sword = dynamic_cast<Sword*>(item); sword != nullptr)
 		{
-			const auto sword = dynamic_cast<Sword*>(item);
 			sword->equip();
 			return;
 		}
@@ -45,9 +44,9 @@ void Inventory::equip_bow()
 {
 	for (const auto item : items_)
 	{
-		if (dynamic_cast<const Bow*>(item) != nullptr)
+		if (const auto bow = dynamic_cast<Bow*>(item); bow != nullptr)
 		{
-			const auto bow = dynamic_cast<Bow*>(item);
+
 			bow->equip();
 			return;
 		}
